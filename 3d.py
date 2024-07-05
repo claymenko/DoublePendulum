@@ -30,7 +30,7 @@ def read_lyapunov_heatmap_from_csv(input_file):
     return lyapunov_heatmap
 
 # Read Lyapunov heatmap from CSV file
-input_file = "heatmapData/1260.csv"
+input_file = "data.csv"
 lyapunov_heatmap = read_lyapunov_heatmap_from_csv(input_file)
 
 Hdimensions = 1260
